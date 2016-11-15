@@ -1,11 +1,11 @@
 $(document).ready(function() {
 
 	/*
-     * Constants
-     */
-    var STUNDEN_DIGITAL_DATA = [0.0, 0.0, 0.0, 0.0, 0.0, 0.2];
-    var STUNDEN_KREATIZE_DATA = [0.0, 4.0, 0.0, 0.166666666666667, 0.0, 0.0];
-    var TOTAL_OFFER_TIME_KREATIZE = STUNDEN_KREATIZE_DATA.reduce((a, b) => a + b, 0);
+	 * Constants
+	 */
+	var STUNDEN_DIGITAL_DATA = [0.0, 0.0, 0.0, 0.0, 0.0, 0.2];
+	var STUNDEN_KREATIZE_DATA = [0.0, 4.0, 0.0, 0.166666666666667, 0.0, 0.0];
+	var TOTAL_OFFER_TIME_KREATIZE = STUNDEN_KREATIZE_DATA.reduce((a, b) => a + b, 0);
 	var TOTAL_OFFER_TIME_DIGITAL = STUNDEN_DIGITAL_DATA.reduce((a, b) => a + b, 0);
 	var HR_MANUAL_QUOTING_KREATIZE = 0;
 	var ONLINE_QUOTING_KREATIZE = 500;
