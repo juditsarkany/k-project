@@ -1,15 +1,15 @@
 body {
-	background: #f9f9f9;
-	font-family: 'Source Sans Pro', sans-serif;
-	-webkit-font-smoothing: antialiased;
+    background: #f9f9f9;
+    font-family: 'Source Sans Pro', sans-serif;
+    -webkit-font-smoothing: antialiased;
 }
 
 .calculator-widget .form-horizontal {
-	padding: 15px;
+    padding: 15px;
 }
 
 .calculator-widget td {
-	color: black;
+    color: black;
 }
 
 .calculator-widget h1 {
@@ -23,7 +23,7 @@ body {
 }
 
 .calculator-widget .calculate {
-    background:	#F8B01E;
+    background: #F8B01E;
     border-color: #f5a708;
     font-family: 'Titillium Web', sans-serif;
     margin-bottom: 20px;
@@ -32,38 +32,38 @@ body {
 }
 
 .btn:hover {
-	opacity: 0.8;
+    opacity: 0.8;
     text-decoration: none;
     z-index: 2;
 }
 
 .inputs {
-	background-color: #fff;
+    background-color: #fff;
 }
 
 .results {
-	background: #fff;
+    background: #fff;
 }
 
 .calculator-widget table {
-	font-size: 14px;
+    font-size: 14px;
 }
 
 /*
  * Stacked on mobile, side by side on desktop.
  */
 @media (max-width: 765px) {
-	.inputs .form-horizontal {
-		text-align: center;
-	}
+    .inputs .form-horizontal {
+        text-align: center;
+    }
 
-	.inputs input {
-		width: 75%;
-		text-align: center;
-	}
+    .inputs input {
+        width: 75%;
+        text-align: center;
+    }
 
-	.inputs label {
-		font-size: 15px;
-		padding-bottom: 5px;
-	}
+    .inputs label {
+        font-size: 15px;
+        padding-bottom: 5px;
+    }
 }
