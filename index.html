@@ -1,0 +1,142 @@
+<html>
+<head>
+	<title></title>
+	<script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|Titillium+Web" rel="stylesheet">
+</head>
+<body>
+	<div class="container-fluid calculator-widget">
+		<div class="row">
+			<div class="col-sm-6 col-xs-12 inputs">
+				<h1>Savings Calculator</h1>
+				<form class="form-horizontal">
+					  <div class="form-group">
+					    <label class="col-sm-6 col-xs-12 control-label">Amount of Sales Employees</label>
+					    <div class="col-sm-6 col-xs-12">
+					      <input type="number" class="employees" value="2">
+					    </div>
+					  </div>
+					  <div class="form-group">
+					    <label class="col-sm-6 col-xs-12 control-label">Quotes per Month per Employee</label>
+					    <div class="col-sm-6 col-xs-12">
+					      <input type="number" class="quotes" value="10">
+					    </div>
+					  </div>
+					  <div class="form-group">
+					    <label class="col-sm-6 col-xs-12 control-label">Durschnittlicher Sundensatz</label>
+					    <div class="col-sm-6 col-xs-12">
+					      <input type="number" class="sundensatz" value="75">
+					    </div>
+					  </div>
+					  <div class="form-group">
+					    <label class="col-sm-6 col-xs-12 control-label">Quote Check</label>
+					    <div class="col-sm-6 col-xs-12">
+					      <input type="number" class="quote-check" id="inputEmail3" value="1.0">
+					    </div>
+					  </div>
+					  <div class="form-group">
+					    <label class="col-sm-6 col-xs-12 control-label">Price Calculation</label>
+					    <div class="col-sm-6 col-xs-12">
+					      <input type="number" class="price" value="4.0">
+					    </div>
+					  </div>
+					  <div class="form-group">
+					    <label class="col-sm-6 col-xs-12 control-label">NDA Check</label>
+					    <div class="col-sm-6 col-xs-12">
+					      <input type="number" class="nda" value="0.5">
+					    </div>
+					  </div>
+					  <div class="form-group">
+					    <label class="col-sm-6 col-xs-12 control-label">Time for creating offer</label>
+					    <div class="col-sm-6 col-xs-12">
+					      <input type="number" class="offers-create" value="0.5">
+					    </div>
+					  </div>
+					  <div class="form-group">
+					    <label class="col-sm-6 col-xs-12 control-label">Average time for writing an Email</label>
+					    <div class="col-sm-6 col-xs-12">
+					      <input type="number" class="emails-time" id="inputEmail3" value="1.0">
+					    </div>
+					  </div>
+					  <div class="form-group">
+					    <label class="col-sm-6 col-xs-12 control-label">Average time per phone call</label>
+					    <div class="col-sm-6 col-xs-12">
+					      <input type="number" class="call-time" value="1.0">
+					    </div>
+					  </div>
+					</form>	
+					<div class="text-center">
+						<!-- <button class="btn btn-lg btn-info calculate">Calculate</button> -->
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-xs-12 results hidden">
+					<h1>Accumulated Cost Savings</h1>
+					<table class="table table-responsive table-bordered">
+	 					<thead>
+	 						<th></th>
+	 						<th>Month 1</th>
+	 						<th>Month 2</th>
+	 						<th>Month 3</th>
+	 						<th>Month 4</th>
+	 						<th>Month 5</th>
+	 					</thead>
+	 					<tbody>
+	 						<tr>
+								<th scope="row">Online Quoting</th>
+								<td class="online-quoting"> 
+									<span class="amount"></span>
+									<span class="unit">€</span>
+								</td>
+								<td class="online-quoting-2">
+									<span class="amount"></span>
+									<span class="unit">€</span>
+								</td>
+								<td class="online-quoting-3">
+									<span class="amount"></span>
+									<span class="unit">€</span>
+								</td>
+								<td class="online-quoting-4">
+									<span class="amount"></span>
+									<span class="unit">€</span>
+								</td>
+								<td class="online-quoting-5">
+									<span class="amount"></span>
+									<span class="unit">€</span>
+								</td>
+							</tr>	
+							<tr>
+								<th scope="row">Digital Production</th>
+								<td class="digital-production">
+									<span class="amount"></span>
+									<span class="unit">€</span>
+								</td>
+								<td class="digital-production-2">
+									<span class="amount"></span>
+									<span class="unit">€</span>
+								</td>
+								<td class="digital-production-3">
+									<span class="amount"></span>
+									<span class="unit">€</span>
+								</td>
+								<td class="digital-production-4">
+									<span class="amount"></span>
+									<span class="unit">€</span>
+								</td>
+								<td class="digital-production-5">
+									<span class="amount"></span>
+									<span class="unit">€</span>
+								</td>
+							</tr>
+	 					</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="main.js"></script>
+</body>
+</html>
